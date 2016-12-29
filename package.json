@@ -10,8 +10,11 @@
     "start": "npm run build && node lib/server/index.js",
     "dev": "gulp dev"
   },
+  "browserslist": [
+    "last 2 versions"
+  ],
   "devDependencies": {
-    "autoprefixer": "^6.5.4",
+    "autoprefixer": "6.6.0",
     "babel-loader": "^6.2.8",
     "babel-preset-es2015": "^6.18.0",
     "del": "^2.2.2",
